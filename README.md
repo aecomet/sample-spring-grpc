@@ -3,11 +3,8 @@
 Sample gRPC Application for Java Spring
 
 ```sh
-# build app
-$ gradle build
-
 # run app
-$ ./gradlew run
+$ ./gradlew bootRun
 ```
 
 ## JDK
