@@ -12,6 +12,7 @@ dependencies {
   // see version: [projectRoot]/gradle/libs.versions.toml
   implementation(libs.starter.web)
   testImplementation(libs.starter.test)
+  implementation(libs.starter.actuator)
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
