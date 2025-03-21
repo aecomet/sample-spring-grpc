@@ -2,9 +2,14 @@
 # https://docs.gradle.org/current/userguide/platforms.html#sub::toml-dependencies-format
 
 [versions]
-guava = "33.3.1-jre"
-junit = "4.13.2"
+spring = "3.4.3"
+dependencyManagement = "1.1.7"
 
 [libraries]
-guava = { module = "com.google.guava:guava", version.ref = "guava" }
-junit = { module = "junit:junit", version.ref = "junit" }
+starter-web = { module = "org.springframework.boot:spring-boot-starter-web", version.ref = "spring" }
+starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "spring" }
+
+[plugins]
+spring-boot = { id = "org.springframework.boot", version.ref = "spring" }
+dependency-management = { id = "io.spring.dependency-management", version.ref = "dependencyManagement" }
+java = { id = "java" }
