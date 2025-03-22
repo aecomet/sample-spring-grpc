@@ -5,3 +5,4 @@ plugins {
 
 rootProject.name = "sample-spring-grpc"
 include("app")
+include("libs")

@@ -7,15 +7,19 @@ dependencyManagement = "1.1.7"
 springGraphqlTest = "1.3.4"
 
 [libraries]
+# default
+boot-bom = { module = "org.springframework.boot:spring-boot-dependencies", version.ref = "spring" }
+starter = { module = "org.springframework.boot:spring-boot-starter" }
+starter-test = { module = "org.springframework.boot:spring-boot-starter-test" }
+
 # RestAPI
-starter-web = { module = "org.springframework.boot:spring-boot-starter-web", version.ref = "spring" }
-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "spring" }
+starter-web = { module = "org.springframework.boot:spring-boot-starter-web" }
 # Monitor
-starter-actuator = { module = "org.springframework.boot:spring-boot-starter-actuator", version.ref = "spring" }
+starter-actuator = { module = "org.springframework.boot:spring-boot-starter-actuator" }
 # HTML Template Engine
-starter-thymeleaf = { module = "org.springframework.boot:spring-boot-starter-thymeleaf", version.ref = "spring" }
+starter-thymeleaf = { module = "org.springframework.boot:spring-boot-starter-thymeleaf" }
 # GraphQL
-starter-graphql = { module = "org.springframework.boot:spring-boot-starter-graphql", version.ref = "spring" }
+starter-graphql = { module = "org.springframework.boot:spring-boot-starter-graphql" }
 starter-graphql-test = { module = "org.springframework.graphql:spring-graphql-test", version.ref = "springGraphqlTest" }
 
 [plugins]
