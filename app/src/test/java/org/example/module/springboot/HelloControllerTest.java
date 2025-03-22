@@ -1,4 +1,4 @@
-package org.example.springboot;
+package org.example.module.springboot;
 
 import static org.hamcrest.Matchers.equalTo;
 import org.junit.jupiter.api.Test;

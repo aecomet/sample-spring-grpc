@@ -10,10 +10,16 @@ repositories {
 
 dependencies {  
   // see version: [projectRoot]/gradle/libs.versions.toml
+  // restapi
   implementation(libs.starter.web)
   testImplementation(libs.starter.test)
+  // monitor
   implementation(libs.starter.actuator)
+  // template engine
   implementation(libs.starter.thymeleaf)
+  // graphql
+  implementation(libs.starter.graphql)
+  testImplementation(libs.starter.graphql.test)
 }
 
 // Apply a specific Java toolchain to ease working on different environments.

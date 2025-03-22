@@ -7,7 +7,7 @@
   ],
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
-  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreview": true,
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },

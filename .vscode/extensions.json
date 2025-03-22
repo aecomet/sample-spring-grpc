@@ -3,6 +3,7 @@
     "vscjava.vscode-java-pack",
     "oracle.oracle-java",
     "josevseb.google-java-format-for-vs-code",
-    "tamasfe.even-better-toml"
+    "tamasfe.even-better-toml",
+    "graphql.vscode-graphql-syntax"
   ]
 }

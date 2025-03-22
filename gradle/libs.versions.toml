@@ -2,14 +2,21 @@
 # https://docs.gradle.org/current/userguide/platforms.html#sub::toml-dependencies-format
 
 [versions]
-spring = "3.4.3"
+spring = "3.4.4"
 dependencyManagement = "1.1.7"
+springGraphqlTest = "1.3.4"
 
 [libraries]
+# RestAPI
 starter-web = { module = "org.springframework.boot:spring-boot-starter-web", version.ref = "spring" }
 starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "spring" }
+# Monitor
 starter-actuator = { module = "org.springframework.boot:spring-boot-starter-actuator", version.ref = "spring" }
+# HTML Template Engine
 starter-thymeleaf = { module = "org.springframework.boot:spring-boot-starter-thymeleaf", version.ref = "spring" }
+# GraphQL
+starter-graphql = { module = "org.springframework.boot:spring-boot-starter-graphql", version.ref = "spring" }
+starter-graphql-test = { module = "org.springframework.graphql:spring-graphql-test", version.ref = "springGraphqlTest" }
 
 [plugins]
 spring-boot = { id = "org.springframework.boot", version.ref = "spring" }
