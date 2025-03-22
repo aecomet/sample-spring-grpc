@@ -9,6 +9,9 @@ $ gradle bootRun
 
 # run test
 $ gradle test
+
+# docker build
+$ docker buildx build -t sample-spring-grpc:latest .
 ```
 
 ## JDK

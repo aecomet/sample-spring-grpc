@@ -1,0 +1,15 @@
+# config files
+.gradle
+.vscode
+LICENSE
+README.md
+Dockerfile
+.gitignore
+.editorconfig
+.java-version
+docker-compose.yml
+
+# build files
+build
+app/build
+libs/build
