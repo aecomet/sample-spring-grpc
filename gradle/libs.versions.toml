@@ -9,6 +9,7 @@ dependencyManagement = "1.1.7"
 starter-web = { module = "org.springframework.boot:spring-boot-starter-web", version.ref = "spring" }
 starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "spring" }
 starter-actuator = { module = "org.springframework.boot:spring-boot-starter-actuator", version.ref = "spring" }
+starter-thymeleaf = { module = "org.springframework.boot:spring-boot-starter-thymeleaf", version.ref = "spring" }
 
 [plugins]
 spring-boot = { id = "org.springframework.boot", version.ref = "spring" }
